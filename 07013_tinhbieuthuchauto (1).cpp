@@ -42,7 +42,7 @@ int main()
             if(s[i] == '+') {
                 st[p-1] += st[p];
                 p--;
-                continue;       
+                continue;
             }
             if(s[i] == '-') {
                 st[p-1] -= st[p];
